@@ -1,0 +1,39 @@
+body {
+    background-image: url('https://pix10.agoda.net/hotelImages/338974/-1/04e34d27dbcf553801923cc05f2995dc.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    color: #ffbb2b;
+}
+
+#click_here {
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.container
+{
+    width: 60%;
+    margin-top: 10px;
+}
+
+label
+{
+    color:#ffbb2b;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.button
+{
+    
+    width: 100px;
+    float: right;
+    font-size: 13px;
+    
+}
