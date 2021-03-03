@@ -37,13 +37,13 @@ session_start();
     <title>Hotel Booking</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="admin/css/reg.css" type="text/css">
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+ 
   
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
   $( function() {
     $( ".datepicker" ).datepicker({
@@ -51,6 +51,41 @@ session_start();
                 });
   } );
   </script>
+  <style type="text/css">
+    body {
+    background-image: url('https://pix10.agoda.net/hotelImages/338974/-1/04e34d27dbcf553801923cc05f2995dc.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+    h2 {
+    text-align: center;
+    color: #ffbb2b;
+    }
+
+    #click_here {
+    margin-top: 10px;
+    text-align: center;
+    
+    }
+
+    .container
+{
+    width: 60%;
+    margin-top: 10px;
+}
+
+
+    .button
+    {
+    
+    width: 100px;
+    float: right;
+    font-size: 13px;
+    
+    }
+  </style>
 
     
 </head>
@@ -62,7 +97,7 @@ session_start();
        <img class="img-responsive" src="images/image.jpeg" style="width:100%; height:180px;">      
         
 
-      <div class="well">
+        <div class="well">
             <h2>Book Now: <?php echo $roomname; ?></h2>
             <hr>
             <form action="" method="post" name="room_category">
